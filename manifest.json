@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "builds": [
+    {
+      "id": "vanilla-plus",
+      "name": "Vanilla+",
+      "description": "Базовый набор: голосовой чат + оптимизация. Рекомендуется всем.",
+      "mcVersion": "26.2",
+      "neoforgeVersion": "26.2.0.7-beta",
+      "mods": [
+        {
+          "name": "Simple Voice Chat",
+          "modrinth": "9eGKb6K1",
+          "version": "Wjf3OgxA",
+          "required": true
+        }
+      ],
+      "config": {
+        "memoryMB": 4096,
+        "files": []
+      }
+    }
+  ]
+}
