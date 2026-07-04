@@ -5,6 +5,7 @@
       "id": "vanilla-plus",
       "name": "Vanilla+",
       "description": "Базовый набор: голосовой чат + оптимизация. Рекомендуется всем.",
+      "loader": "neoforge",
       "mcVersion": "26.2",
       "neoforgeVersion": "26.2.0.7-beta",
       "mods": [
@@ -18,6 +19,68 @@
       "config": {
         "memoryMB": 4096,
         "files": []
+      }
+    },
+    {
+      "id": "vanilla-plus-shaders",
+      "name": "Vanilla+shaders",
+      "description": "Голосовой чат + Sodium + шейдеры Iris + дальний рендер Distant Horizons. Fabric, три пака в комплекте (по умолчанию Complementary Reimagined).",
+      "loader": "fabric",
+      "mcVersion": "26.2",
+      "mods": [
+        {
+          "name": "Simple Voice Chat",
+          "modrinth": "9eGKb6K1",
+          "version": "bvaEHE2T",
+          "required": true
+        },
+        {
+          "name": "Sodium",
+          "modrinth": "AANobbMI",
+          "version": "3QgJXuSK",
+          "required": true
+        },
+        {
+          "name": "Iris Shaders",
+          "modrinth": "YL57xq9U",
+          "version": "3uIIps8q",
+          "required": true
+        },
+        {
+          "name": "Distant Horizons",
+          "modrinth": "uCdwusMi",
+          "version": "IguX0jEa",
+          "required": true
+        }
+      ],
+      "shaderpacks": [
+        {
+          "name": "Complementary Reimagined",
+          "modrinth": "HVnmMxH1",
+          "version": "yCCduG44",
+          "required": false
+        },
+        {
+          "name": "Complementary Unbound",
+          "modrinth": "R6NEzAwj",
+          "version": "VMHXIk50",
+          "required": false
+        },
+        {
+          "name": "BSL Shaders",
+          "modrinth": "Q1vvjJYV",
+          "version": "hIibTfxn",
+          "required": false
+        }
+      ],
+      "config": {
+        "memoryMB": 8192,
+        "files": [
+          {
+            "path": "config/iris.properties",
+            "content": "enableShaders=true\nshaderPack=ComplementaryReimagined_r5.8.1.zip\n"
+          }
+        ]
       }
     }
   ]
