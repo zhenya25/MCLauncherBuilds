@@ -79,6 +79,10 @@
           {
             "path": "config/iris.properties",
             "content": "enableShaders=true\nshaderPack=ComplementaryReimagined_r5.8.1.zip\n"
+          },
+          {
+            "path": "config/DistantHorizons.toml",
+            "content": "# Deployed by launcher: force OpenGL so Distant Horizons renders under Iris shaders.\n# DH 3.x defaults renderingEngine to BLAZE_3D on MC 26.2+, which Iris does not support yet.\n# DH fills the rest of this config with defaults on first launch.\n[client.advanced.graphics.experimental]\n\trenderingEngine = \"OPEN_GL\"\n"
           }
         ]
       }
