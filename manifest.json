@@ -14,6 +14,18 @@
           "modrinth": "9eGKb6K1",
           "version": "Wjf3OgxA",
           "required": true
+        },
+        {
+          "name": "Mouse Tweaks",
+          "modrinth": "aC3cM3Vq",
+          "version": "rokwij6O",
+          "required": false
+        },
+        {
+          "name": "Inventory Sorting",
+          "modrinth": "5ibSyLAz",
+          "version": "EghD6kRl",
+          "required": false
         }
       ],
       "config": {
@@ -51,6 +63,18 @@
           "modrinth": "uCdwusMi",
           "version": "IguX0jEa",
           "required": true
+        },
+        {
+          "name": "Mouse Tweaks",
+          "modrinth": "aC3cM3Vq",
+          "version": "jOiTBIaB",
+          "required": false
+        },
+        {
+          "name": "Inventory Sorting",
+          "modrinth": "5ibSyLAz",
+          "version": "XqW7xO2k",
+          "required": false
         }
       ],
       "shaderpacks": [
