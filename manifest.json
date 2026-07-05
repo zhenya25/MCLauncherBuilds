@@ -47,6 +47,12 @@
       "mcVersion": "26.2",
       "mods": [
         {
+          "name": "Fabric API",
+          "modrinth": "P7dR8mSH",
+          "version": "Cpy2Px2f",
+          "required": true
+        },
+        {
           "name": "Simple Voice Chat",
           "modrinth": "9eGKb6K1",
           "version": "bvaEHE2T",
