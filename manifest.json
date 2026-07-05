@@ -26,6 +26,12 @@
           "modrinth": "5ibSyLAz",
           "version": "EghD6kRl",
           "required": false
+        },
+        {
+          "name": "Cloth Config API",
+          "modrinth": "9s6osm5g",
+          "version": "zErG1kOw",
+          "required": false
         }
       ],
       "config": {
@@ -74,6 +80,12 @@
           "name": "Inventory Sorting",
           "modrinth": "5ibSyLAz",
           "version": "XqW7xO2k",
+          "required": false
+        },
+        {
+          "name": "Cloth Config API",
+          "modrinth": "9s6osm5g",
+          "version": "Nv3xnWXd",
           "required": false
         }
       ],
