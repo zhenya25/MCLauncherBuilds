@@ -32,6 +32,12 @@
           "modrinth": "9s6osm5g",
           "version": "zErG1kOw",
           "required": false
+        },
+        {
+          "name": "SeeU",
+          "modrinth": "coyNPDey",
+          "version": "7g40Fyxw",
+          "required": false
         }
       ],
       "config": {
@@ -92,6 +98,12 @@
           "name": "Cloth Config API",
           "modrinth": "9s6osm5g",
           "version": "Nv3xnWXd",
+          "required": false
+        },
+        {
+          "name": "SeeU",
+          "modrinth": "coyNPDey",
+          "version": "gyNWLCPb",
           "required": false
         }
       ],
